@@ -17,11 +17,11 @@ font-family: "Inter", sans-serif;
 
 body {
 padding: 1.75rem 1rem;
-background-color: var(-almost-white);
+background-color: #FFFDFA;
 
 }
 
-body.menu-open::before {
+body.escurecer::before {
 content: "";
 position: fixed;
 height: 100vh;
@@ -46,8 +46,8 @@ left: 0;
 
 .header-mobile nav {
     position: fixed;
-    background-color:white;
-    right: 0;
+    background-color:#FFFDFA;
+    right: -16rem;
     top: 0;
     height: 100vh;
     width: 16rem;
@@ -59,6 +59,10 @@ left: 0;
     gap: 1.5rem;
 }
 
+.header-mobile nav.abrir {
+    right: 0;
+}
+
 .header-mobile nav button {
     align-self: flex-end;
     margin-bottom: 4.5rem;
@@ -66,7 +70,7 @@ left: 0;
 
 .header-mobile nav a {
     text-decoration: none;
-    color: var(-dark-blue);
+    color: #00001a;
     font-size: 1.125rem;
     line-height: 1.5rem;
 }
@@ -83,23 +87,23 @@ left: 0;
 .primeira-secao h1 {
     font-size: 2.5rem;
     line-height: 100%;
-    color: var(-dark-blue);
+    color: #00001a;
     margin-bottom: 1rem;
 }
 
 .primeira-secao p {
     font-size: 0.9375rem;
     line-height: 1.625rem;
-    color: var(-gunmetal);
+    color: #5E607A;
     margin-bottom: 1.5rem;
 }
 
 .primeira-secao button {
     padding: 0.75rem 2rem;
-    background-color: var(-vermillion);
+    background-color:#F15D51;
     border: none;
     text-transform: uppercase;
-    color: var(-almost-white);
+    color: #FFFDFA;
     font-weight: 700;
     font-size: 0.875rem;
     letter-spacing: 0.275rem;
@@ -107,26 +111,26 @@ left: 0;
 }
 
 .segunda-secao {
-    background-color: var(-dark-blue);
+    background-color: #00001a;
     margin-bottom: 4rem;
     padding: 1.5rem 1.1rem;
 }
 
 .margin-border-padding {
-    border: 1px solid var(-gunmetal);
+    border: 1px solid #5E607A;
     margin-bottom: 1.75rem;
     padding-bottom: 1.75rem;
 }
 
 .segunda-secao h2 {
-    color: var(-yellow);
+    color: #E9AA52;
     font-size: 2rem;
     line-height: 100%;
     margin-bottom: 2.2rem;
 }
 
 .segunda-secao h3 {
-    color: var(-almost-white);
+    color: #FFFDFA;
     font-size: 1.25rem;
     line-height: 1.5rem;
     font-weight: 800;
@@ -134,7 +138,7 @@ left: 0;
 }
 
 .segunda-secao p {
-color: var(-silver);
+color: #C5C6CE;
 font-size: 0.9375;
 line-height: 1.625rem;
 }
@@ -151,13 +155,13 @@ line-height: 1.625rem;
 }
 
 .terceira-secao strong {
-    color: var(-silver);
+    color: #C5C6CE;
     font-size: 2rem;
     line-height: 100%;
 }
 
 .terceira-secao h2 {
-    color: var(-dark-blue);
+    color: #00001a;
     font-size: 1.125rem;
     font-weight: 800;
     line-height: 1.5rem;
@@ -167,5 +171,5 @@ line-height: 1.625rem;
 .terceira-secao p {
     font-size: 0.9375rem;
     line-height: 1.625rem;
-    color: var(-gunmetal);
+    color: #5E607A;
 }
