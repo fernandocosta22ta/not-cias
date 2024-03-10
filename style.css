@@ -46,7 +46,7 @@ left: 0;
 
 .header-mobile nav {
     position: fixed;
-    background-color: var(-almost-white);
+    background-color:white;
     right: 0;
     top: 0;
     height: 100vh;
